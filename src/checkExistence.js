@@ -15,7 +15,10 @@
  * @return {boolean}
  */
 function checkExistence(array, element) {
-  // write code here
+  if (array.includes(element)) {
+    return true;
+  }
+  return false;
 }
 
 module.exports = checkExistence;
