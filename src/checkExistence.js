@@ -15,7 +15,12 @@
  * @return {boolean}
  */
 function checkExistence(array, element) {
-  // write code here
+  for (const item of array) {
+    if (item === element) {
+      return true;
+    }
+  }
+  return false;
 }
 
 module.exports = checkExistence;
