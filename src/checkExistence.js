@@ -15,12 +15,7 @@
  * @return {boolean}
  */
 function checkExistence(array, element) {
-  for (let i = 0; i < array.length; i++) {
-    if (element === array[i]) {
-      return true;
-    }
-  }
-  return false;
+  return array.includes(element);
 }
 
 module.exports = checkExistence;
