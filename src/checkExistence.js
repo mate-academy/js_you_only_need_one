@@ -15,7 +15,20 @@
  * @return {boolean}
  */
 function checkExistence(array, element) {
-  // write code here
+  // first solution:
+  /* for (let i = 0; i < array.length; i++) {
+    if (array[i] === element) {
+      return true;
+    }
+  }
+  return false; */
+
+  // second solution:
+  /* const arrToStr = array.join(' ');
+  return (arrToStr.indexOf(element) != -1); */
+
+  // true solution:
+  return array.includes(element);
 }
 
 module.exports = checkExistence;
