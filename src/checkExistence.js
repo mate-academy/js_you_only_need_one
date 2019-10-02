@@ -16,6 +16,12 @@
  */
 function checkExistence(array, element) {
   // write code here
+  for (const elem of array) {
+    if (element === elem) {
+      return true;
+    }
+  }
+  return false;
 }
 
 module.exports = checkExistence;
