@@ -15,10 +15,8 @@
  * @return {boolean}
  */
 function checkExistence(array, element) {
-  for (let i = 0; i < array.length; i++) {
-    if (array[i].includes(element)) {
-      return true;
-    }
+  if (array.includes(element)) {
+    return true;
   }
   return false;
 }
