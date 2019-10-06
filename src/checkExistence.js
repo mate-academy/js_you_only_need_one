@@ -16,7 +16,7 @@
  */
 function checkExistence(array, element) {
   for (let i = 0; i < array.length; i++) {
-    if (array[i] === element) {
+    if (array[i].includes(element)) {
       return true;
     }
   }
