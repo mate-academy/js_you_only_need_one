@@ -15,24 +15,6 @@
  * @return {boolean}
  */
 function checkExistence(array, element) {
-  /* for (let i = 0; i < array.length; i++) {
-    if (array[i] === element) {
-      return true;
-    }
-  }
-
-  return false; */
-
-  /* for (const elem of array) {
-    if (elem === element) {
-      return true;
-    }
-  }
-
-  return false; */
-
-  // return array.indexOf(element) !== -1 ? true : false;
-
   return array.includes(element);
 }
 
