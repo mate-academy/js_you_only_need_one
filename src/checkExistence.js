@@ -16,6 +16,7 @@
  */
 function checkExistence(array, element) {
   // write code here
+  return array.includes(element);
 }
 
 module.exports = checkExistence;
